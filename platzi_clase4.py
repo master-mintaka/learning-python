@@ -31,3 +31,13 @@ print("Frase:", frase, "Autor:", author)
 nombre = "Michael Dudykoff"
 profesion = "Martial Arts Expert"
 print("His name {}, and he is  {}".format(nombre, profesion))
+
+#Operaciones Matemáticas
+a = 10
+b = 3
+print("Suma:",  a + b)
+print("Resta:",  a - b)
+print("Multiplicacion:",  a * b)
+print("División:",  a / b)
+print("Parte entera:",  a // b)
+print("Residuo:",  a % b)
