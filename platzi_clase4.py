@@ -1,3 +1,4 @@
+"""
 first_name = 'John Wilhem'
 last_name = 'Granados Alcala'
 
@@ -41,3 +42,49 @@ print("Multiplicacion:",  a * b)
 print("División:",  a / b)
 print("Parte entera:",  a // b)
 print("Residuo:",  a % b)
+"""
+
+"""
+print("Ejemplo con While")
+x = 0
+while x < 3:
+    print(x+1)
+    x += 1
+
+print("Ejemplo con for")
+for x in range(3):
+    print(x +1)
+
+#Funciones anónimas o lambda en python - lo mismo que inline functions en JS
+suma = lambda x, y: x + y
+resultado = suma(3,5)
+print(resultado)
+
+
+
+# Variable global
+a = 0
+
+def suma_uno():
+    global a
+    a = a + 1
+
+suma_uno()
+print(a)
+"""
+
+"""a = [1, 2]
+b = [1, 2]
+
+print (a is b)
+print (a == b)
+print ("Identificador del objeto", id(a))
+"""
+
+# Lectura de un archivo
+# whith open('test_files/some_records.txt', 'r') as file:
+#    print(file.read())
+
+with open('test_files/some_records.txt', 'r') as file:
+    contents = file.read()
+    print(contents)

@@ -1,0 +1,3 @@
+esta es la fila 1 del archivo
+aqui vamos a poner algo mas -> fila 2
+Lorem ipsum y el carretazo que sigue
